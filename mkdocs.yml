@@ -1,0 +1,35 @@
+site_name: QXR Asset Toolkit
+site_description: Official documentation for the QXR optimization pipeline.
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Introduction: index.md
+  - Blender Add-on:
+    - Overview & Installation: sections/addon/index.md
+    - Avatar Setup: sections/addon/avatar_setup.md
+    - Mesh LOD: sections/addon/mesh_lod.md
+    - FBX Exporter: sections/addon/fbx_exporter.md
+  - Cloud Version: sections/cloud/index.md
+  - Technical Reference: sections/technical/index.md
+
+# Activa el soporte nativo para diagramas Mermaid
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
