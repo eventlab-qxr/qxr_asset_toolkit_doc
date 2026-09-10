@@ -5,7 +5,7 @@ The **Mesh LOD** module is designed to maximize your avatar's real-time performa
 ## Core Features
 
 * **Automated Decimation:** Intelligently reduces the polygon count of your avatar across multiple tiers while preserving the silhouette and UV boundaries.
-* **Material Consolidation (Baking):** Merges all separated meshes and bakes their multiple materials into a single Unified Texture Atlas. This drastically reduces rendering draw calls.
+* **Material Consolidation (Baking):** Iterates over all the meshes and bakes their multiple materials into a single Unified Texture Atlas. This drastically reduces rendering draw calls.
 * **Seamless Engine Integration:** The generated LOD groups (e.g., `LOD0`, `LOD1`, `LOD2`) are structured logically, making them ready to be auto-recognized by Unity's LOD Group component or Unreal Engine's static mesh pipeline.
 
 ## Interface & Controls
@@ -16,6 +16,8 @@ In the **Mesh LOD Panel**, you can configure the exact parameters for the optimi
 * **Decimation Ratio:** Controls the aggressiveness of the polygon reduction between each LOD step. A ratio of `0.50` means each subsequent LOD will have 50% fewer polygons than the previous one.
 * **Atlas Resolution:** A dropdown to select the target dimensions for the baked PBR texture atlas (e.g., `2048 x 2048` or `4096 x 4096`).
 * **Optimize Button:** Executes the baking and decimation pipeline. 
+
+![Master Pipeline UI](mesh_lod.png)
 
 ## Recommended Workflow
 
