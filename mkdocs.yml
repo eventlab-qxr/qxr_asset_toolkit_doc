@@ -30,8 +30,8 @@ nav:
       - Avatar Pose: sections/addon/avatar_setup/03_avatar_pose/index.md
       - Head Rigger: sections/addon/avatar_setup/04_head_rigger/index.md
       - Hand Rigger: sections/addon/avatar_setup/05_hand_rigger/index.md
-    - Mesh LOD: sections/addon/mesh_lod.md
-    - FBX Exporter: sections/addon/fbx_exporter.md
+    - Mesh LOD: sections/addon/mesh_lod/index.md
+    - FBX Exporter: sections/addon/fbx_exporter/index.md
   - Cloud Version:
     - sections/cloud/index.md
   - Technical Reference: sections/technical/index.md
