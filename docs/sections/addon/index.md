@@ -6,7 +6,7 @@ The QXR Asset Toolkit can be installed directly into Blender as a standard add-o
 
 To install the add-on, follow these standard Blender procedures:
 
-1. Download the latest `qxr_asset_toolkit.zip` release file.
+1. Download the latest `qxr_asset_toolkit.zip` release file [from here](https://drive.google.com/drive/folders/1gmxQQjCZw91WP5ZyYH4KmolChCv3xL6K?usp=drive_link).
 2. Open Blender and navigate to **Edit > Preferences > Add-ons**.
 3. Click the down-arrow icon in the top right corner of the window, select **Install from Disk...** (as shown in the image below), and locate your downloaded `.zip` file.
 4. Once installed, check the box next to **QXR Asset Toolkit** to enable the add-on.
