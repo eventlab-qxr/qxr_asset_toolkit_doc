@@ -26,5 +26,5 @@ To access it, simply press the `N` key while hovering over the 3D Viewport to op
 The interface is cleanly divided into collapsible panels matching our core modules:
 
 * **[Avatar Setup Panel](avatar_setup/index.md):** Allows you to define the target avatar height (in meters) and trigger the heuristic topological mapping to enforce a standard T-Pose.
-* **[Mesh LOD Panel](mesh_lod.md):** Provides slider controls to set the total LOD count, the decimation ratio per level, and a dropdown to select the target PBR texture atlas resolution (e.g., 2048px or 4096px).
-* **[FBX Exporter Panel](fbx_exporter.md):** A one-click solution to apply all global transforms and export the active collection to a game-ready FBX package.
+* **[Mesh LOD Panel](mesh_lod/index.md):** Provides slider controls to set the total LOD count, the decimation ratio per level, and a dropdown to select the target PBR texture atlas resolution (e.g., 2048px or 4096px).
+* **[FBX Exporter Panel](fbx_exporter/index.md):** A one-click solution to apply all global transforms and export the active collection to a game-ready FBX package.
