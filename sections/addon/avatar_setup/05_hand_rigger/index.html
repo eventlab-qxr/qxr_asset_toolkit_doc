@@ -11,26 +11,28 @@
       
       
       
+        <link rel="prev" href="../04_head_rigger/">
       
-        <link rel="next" href="sections/addon/">
+      
+        <link rel="next" href="../../mesh_lod/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>QXR Asset Toolkit</title>
+        <title>Hand Rigger - QXR Asset Toolkit</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +51,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-qxr-asset-toolkit" class="md-skip">
+        <a href="#hand-rigger" class="md-skip">
           Skip to content
         </a>
       
@@ -90,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="QXR Asset Toolkit" class="md-header__button md-logo" aria-label="QXR Asset Toolkit" data-md-component="logo">
+    <a href="../../../.." title="QXR Asset Toolkit" class="md-header__button md-logo" aria-label="QXR Asset Toolkit" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -110,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Hand Rigger
             
           </span>
         </div>
@@ -214,7 +216,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="QXR Asset Toolkit" class="md-nav__button md-logo" aria-label="QXR Asset Toolkit" data-md-component="logo">
+    <a href="../../../.." title="QXR Asset Toolkit" class="md-nav__button md-logo" aria-label="QXR Asset Toolkit" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -229,37 +231,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Introduction
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
         
   
   
@@ -275,48 +250,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#core-modules" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Core Modules
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deployment-options" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Deployment Options
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -325,6 +258,8 @@
       
   
   
+    
+  
   
   
     
@@ -344,15 +279,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="sections/addon/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -376,7 +311,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -393,6 +328,8 @@
                 
   
   
+    
+  
   
   
     
@@ -416,15 +353,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="sections/addon/avatar_setup/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -448,7 +385,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -468,7 +405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sections/addon/avatar_setup/01_mesh_cleaner/" class="md-nav__link">
+      <a href="../01_mesh_cleaner/" class="md-nav__link">
         
   
   
@@ -496,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sections/addon/avatar_setup/02_bone_mapper/" class="md-nav__link">
+      <a href="../02_bone_mapper/" class="md-nav__link">
         
   
   
@@ -524,7 +461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sections/addon/avatar_setup/03_avatar_pose/" class="md-nav__link">
+      <a href="../03_avatar_pose/" class="md-nav__link">
         
   
   
@@ -552,7 +489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sections/addon/avatar_setup/04_head_rigger/" class="md-nav__link">
+      <a href="../04_head_rigger/" class="md-nav__link">
         
   
   
@@ -577,10 +514,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="sections/addon/avatar_setup/05_hand_rigger/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hand Rigger
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -596,6 +560,70 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#required-mapped-bones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Required Mapped Bones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automatic-mode-volumetric-medial-axis-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automatic Mode (Volumetric Medial Axis Engine)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manual-mode-smart-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manual Mode (Smart Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binding-smart-culling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Binding &amp; Smart Culling
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -616,7 +644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sections/addon/mesh_lod/" class="md-nav__link">
+      <a href="../../mesh_lod/" class="md-nav__link">
         
   
   
@@ -644,7 +672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sections/addon/fbx_exporter/" class="md-nav__link">
+      <a href="../../fbx_exporter/" class="md-nav__link">
         
   
   
@@ -697,7 +725,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="sections/cloud/" class="md-nav__link ">
+            <a href="../../../cloud/" class="md-nav__link ">
               
   
   
@@ -743,7 +771,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sections/technical/" class="md-nav__link">
+      <a href="../../../technical/" class="md-nav__link">
         
   
   
@@ -790,10 +818,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#core-modules" class="md-nav__link">
+  <a href="#required-mapped-bones" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Core Modules
+        Required Mapped Bones
       
     </span>
   </a>
@@ -801,10 +829,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#deployment-options" class="md-nav__link">
+  <a href="#automatic-mode-volumetric-medial-axis-engine" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Deployment Options
+        Automatic Mode (Volumetric Medial Axis Engine)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manual-mode-smart-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Manual Mode (Smart Guides)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binding-smart-culling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Binding &amp; Smart Culling
       
     </span>
   </a>
@@ -828,18 +878,35 @@
 
 
 
-<h1 id="welcome-to-qxr-asset-toolkit">Welcome to QXR Asset Toolkit</h1>
-<p>The <strong>QXR Asset Toolkit</strong> is a production-ready pipeline designed to optimize 3D assets and avatars for real-time engines like Unity and Unreal Engine. </p>
-<h2 id="core-modules">Core Modules</h2>
-<p>The toolkit is built upon three modular components, each handling a critical step in the 3D optimization workflow:</p>
+<h1 id="hand-rigger">Hand Rigger</h1>
+<p>Fingers are traditionally the most tedious and error-prone area of character setup. The <strong>Hand Rigger</strong> module eliminates this bottleneck using advanced topological and volumetric algorithms to perfectly align and weight finger bones in seconds.</p>
+<h2 id="required-mapped-bones">Required Mapped Bones</h2>
+<p>Before generating fingers, the toolkit strictly requires the Left and Right Lower Arms (Forearms), as well as the Left and Right Hands to be mapped. The engine uses these bones as baseline vectors to determine the accurate forward and upward orientations of the hands.</p>
+<p>There are two ways for generating the bones: <strong>Automatic Mode (recommended)</strong>, or <strong>Manual Mode</strong>. </p>
+<p><img alt="Hand Rigger Tab" src="hand_rigger.png" /></p>
+<h2 id="automatic-mode-volumetric-medial-axis-engine">Automatic Mode (Volumetric Medial Axis Engine)</h2>
+<p>This is the recommended workflow for most standard characters.</p>
 <ul>
-<li><strong>Avatar Setup:</strong> This module standardizes the skeleton and posture of imported characters. It uses heuristic algorithms to automatically detect and map bones, enforces a strict T-Pose, and scales the avatar to a standardized height. It also features an advanced volumetric medial axis engine for precise hand and finger rigging.</li>
-<li><strong>Mesh LOD:</strong> Designed to maximize real-time performance. This module generates automated Levels of Detail (LODs) based on customizable decimation ratios. Simultaneously, it consolidates multiple meshes and materials by baking them into a single, highly optimized PBR texture atlas.</li>
-<li><strong>FBX Exporter:</strong> The final step of the pipeline. It guarantees the asset is perfectly packaged for game engines by applying all global transforms, fixing unit scales, and embedding the processed textures into a clean, production-ready FBX file.</li>
+<li><strong>How it works:</strong> Clicking <strong>Auto-Rig Voxel Hands</strong> temporarily converts the hand meshes into a dense 3D voxel grid using OpenVDB. The module then utilizes SciPy's graph pathfinding to calculate the true internal "Medial Axis" (the absolute geometric center) of each finger volume. This guarantees that bones are placed perfectly in the center of the geometry, regardless of the finger's thickness or curvature.</li>
+<li><strong>Voxel Resolution:</strong> This parameter dictates the density of the calculation grid. Lower values (e.g., <code>0.0020</code>) yield highly accurate medial paths but require exponentially more CPU processing time to calculate the graphs.</li>
+<li><strong>Anatomical Joints:</strong> Once the paths are found, the algorithm smooths them and automatically calculates the exact positions of the MCP, PIP, and DIP joints based on strict human anatomical knuckle ratios.</li>
 </ul>
-<h2 id="deployment-options">Deployment Options</h2>
-<p>You can integrate this pipeline into your workflow in two ways: locally as a <strong><a href="sections/addon/">Blender Add-on</a></strong>, or deployed as an automated, containerized <strong><a href="sections/cloud/">Cloud Web Service</a></strong>. </p>
-<p>Use the sidebar to navigate through the detailed documentation and setup guides for each version.</p>
+<p><img alt="Hand Rigger Tab" src="hand_rigger_auto.png" /></p>
+<blockquote>
+<p><strong>Performance Warning:</strong> Generating volumetric bones is a computationally heavy process. Depending on the geometric complexity of your avatar and the chosen Voxel Resolution, this operation can take anywhere from a few seconds to several minutes. During this time, the Blender interface will freeze and become completely unresponsive. This is a normal, blocking operation—please wait for it to finish.</p>
+</blockquote>
+<h2 id="manual-mode-smart-guides">Manual Mode (Smart Guides)</h2>
+<p>Automatic voxelization might struggle with highly stylized geometry, heavily merged low-poly assets, or hands wearing thick gloves. Manual mode bridges this gap by offering a hybrid approach.</p>
+<ul>
+<li><strong>Spawn Guide Markers:</strong> Clicking this button runs a topological flood-fill and slicing algorithm to detect the fingertips. It spawns a single, straight guide bone for each detected finger. You can quickly adjust the root and tip of these 5 guides in Blender's Edit Mode.</li>
+<li><strong>Inject Fingers from Guides:</strong> Once your guides are correctly placed, this operator replaces them with a complete, production-ready 4-bone hierarchy per finger (proximal, intermediate, distal, tip), automatically aligning their local roll axes to bend correctly.</li>
+</ul>
+<p><img alt="Hand Rigger Tab" src="hand_rigger_manual.png" /></p>
+<h2 id="binding-smart-culling">Binding &amp; Smart Culling</h2>
+<p>Once the finger bones are generated via either mode, clicking <strong>Bind Hands to Mesh</strong> applies automatic weights.</p>
+<ul>
+<li><strong>Smart Back-of-Hand Culling:</strong> Standard automatic weighting in 3D software often incorrectly assigns finger influence to the back of the hand, causing the knuckles to collapse unnaturally when the character makes a fist. To fix this, the module runs a geometric dot-product filter. It analyzes all vertices located strictly behind the knuckle joints, strips their finger weights, and seamlessly transfers that influence back to the main Hand bone to preserve rigid knuckle structure.</li>
+</ul>
 
 
 
@@ -868,15 +935,31 @@
       
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
+          
+          <a href="../04_head_rigger/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Head Rigger">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Head Rigger
+              </div>
+            </div>
+          </a>
+        
         
           
-          <a href="sections/addon/" class="md-footer__link md-footer__link--next" aria-label="Next: Blender Add-on">
+          <a href="../../mesh_lod/" class="md-footer__link md-footer__link--next" aria-label="Next: Mesh LOD">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Blender Add-on
+                Mesh LOD
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -913,10 +996,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.indexes", "navigation.footer"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.indexes", "navigation.footer"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
